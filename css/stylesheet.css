@@ -1,0 +1,127 @@
+nav {
+  position: relative;
+}
+
+p {
+  font-size: 21px;
+  color: black;
+}
+
+.section{
+  padding-top:50px;
+  height:600px;
+  color: #fff;
+  overflow: hidden;
+}
+#section1 {
+  background-color: #8c8c8c;
+}
+#section2 {
+    background-color: #b3b3b3;
+    height:150px;
+}
+#section3 {
+    background-color: #8c8c8c;
+    height: 720px;
+}
+
+#section4 {
+    background-color: #b3b3b3;
+    height:120px;
+    padding: 20px;
+}
+
+#section5 {
+    background-color: #8c8c8c;
+    height: 480px;
+}
+
+#section6 {
+    background-color: #b3b3b3;
+    height: 480px;
+}
+
+.imagem{
+ width: 300px;
+}
+
+.sobre {
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#principal {
+  background-color: black;
+  margin: 60px 50px 10px 50px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+a:link {
+  text-decoration:none;
+  color:#000;
+}
+
+a:hover {
+  text-decoration: none;
+	color:#000;
+	font-size:120%;
+}
+
+.fotos {
+  width: 470px;
+  margin: 8px;
+  padding: 0px 10px 10px 0px;
+}
+
+h2 {
+  font-family: monospace;
+  text-align: center;
+}
+
+form {
+  width: 550px;
+  margin: auto;
+  padding: 20px 15px;
+  background-color: grey;
+  box-sizing: border-box;
+  border-radius: 7px;
+  color: black;
+}
+
+
+input, textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#botao {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.itemskills {
+  height: 120px;
+  display: flex;
+
+}
