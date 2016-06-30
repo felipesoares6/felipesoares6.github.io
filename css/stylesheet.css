@@ -13,6 +13,7 @@ p {
   color: #fff;
   overflow: hidden;
 }
+
 #section1 {
   background-color: #8c8c8c;
 }
@@ -41,8 +42,14 @@ p {
     height: 480px;
 }
 
+#section7 {
+    background-color: #8c8c8c;
+    height: 480px;
+}
+
 .imagem{
  width: 300px;
+ margin-top: 30px;
 }
 
 .sobre {
@@ -117,11 +124,16 @@ textarea {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .itemskills {
-  height: 120px;
+  height: 150px;
   display: flex;
 
+}
+
+.formacao {
+  display: flex;
+  justify-content: center;
 }
