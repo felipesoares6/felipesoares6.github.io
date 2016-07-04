@@ -7,9 +7,6 @@ $(function(){
 
 
     alert('Email enviado com sucesso!');
-
-    $nome.val('');
-    $email.val('');
-    $mensagem.val('');
+    
   });
 });
