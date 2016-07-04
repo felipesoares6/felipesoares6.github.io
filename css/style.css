@@ -78,9 +78,17 @@ p {
     height: 480px;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
 .imagem{
  width: 300px;
  margin-top: 30px;
+ border-radius: 100%;
 }
 
 .sobre {
