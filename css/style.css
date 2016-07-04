@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -40,7 +45,7 @@ p {
 
 .section{
   padding-top:50px;
-  height:600px;
+  height:540px;
   color: #fff;
   overflow: hidden;
 }
@@ -50,7 +55,7 @@ p {
 }
 #section2 {
     background-color: #b3b3b3;
-    height:150px;
+    height:130px;
 }
 #section3 {
     background-color: #8c8c8c;
@@ -59,7 +64,7 @@ p {
 
 #section4 {
     background-color: #b3b3b3;
-    height:120px;
+    height:110px;
     padding: 20px;
 }
 
@@ -70,19 +75,18 @@ p {
 
 #section6 {
     background-color: #b3b3b3;
-    height: 480px;
+    height: 440px;
 }
 
 #section7 {
     background-color: #8c8c8c;
-    height: 480px;
+    height: 420px;
 }
 
 .links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 .imagem{
