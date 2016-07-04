@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif, serif;
 }
 
 a {
@@ -16,6 +17,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 li {
@@ -45,10 +47,11 @@ p {
 
 .section{
   padding-top:50px;
-  height:540px;
+  height:640px;
   color: #fff;
   overflow: hidden;
 }
+
 
 #section1 {
   background-color: #8c8c8c;
@@ -181,6 +184,8 @@ textarea {
 
 .rodape {
   color: white;
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
