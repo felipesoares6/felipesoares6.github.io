@@ -1,6 +1,37 @@
-nav {
-  position: relative;
+a {
+  text-decoration: none;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+li a:hover {
+    background-color: #a6a6a6;
+    text-decoration: none;
+    color: white;
+}
+
 
 p {
   color: black;
@@ -61,14 +92,9 @@ p {
   color: black;
 }
 
-a:link {
-  text-decoration:none;
-  color:#000;
-}
 
-a:hover {
-  text-decoration: none;
-	color:#000;
+#section2 a:hover {
+  color:#000;
 	font-size:120%;
 }
 
@@ -78,10 +104,6 @@ a:hover {
   padding: 0px 10px 10px 0px;
 }
 
-h2 {
-  font-family: monospace;
-  text-align: center;
-}
 
 form {
   width: 550px;
@@ -125,7 +147,6 @@ textarea {
 .itemskills {
   height: 150px;
   display: flex;
-
 }
 
 .formacao {
