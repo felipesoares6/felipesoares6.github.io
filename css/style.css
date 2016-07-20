@@ -45,7 +45,9 @@ p {
   font-size: 21px;
 }
 
-.section{
+header,
+section,
+footer {
   padding-top:50px;
   height:640px;
   color: #fff;
@@ -53,36 +55,42 @@ p {
 }
 
 
-#section1 {
+footer {
+   background-color: black;
+   height: 50px;
+   padding-top: 15px;
+}
+
+.sectionimpar {
   background-color: #8c8c8c;
 }
+
+.sectionpar {
+  background-color: #b3b3b3;
+}
+
 #section2 {
-    background-color: #b3b3b3;
     height:130px;
 }
+
 #section3 {
-    background-color: #8c8c8c;
     height: 720px;
 }
 
 #section4 {
-    background-color: #b3b3b3;
     height:110px;
     padding: 20px;
 }
 
 #section5 {
-    background-color: #8c8c8c;
     height: 400px;
 }
 
 #section6 {
-    background-color: #b3b3b3;
     height: 440px;
 }
 
 #section7 {
-    background-color: #8c8c8c;
     height: 420px;
 }
 
@@ -144,7 +152,8 @@ form {
 }
 
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 10px;
   width: 100%;
   padding: 8px;
