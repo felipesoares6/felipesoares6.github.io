@@ -45,37 +45,6 @@ footer {
   overflow: hidden;
 }
 
-header {
-  background-image: url("../img/photo-header.jpg");
-  background-size: cover;
-  background-position: center;
-  z-index: 2;
-  background-size: cover;
-  position: relative;
-}
-
-header p {
-  font-size: 24px;
-}
-
-header:after {
-  z-index: -1;
-  content: '';
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-footer {
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .sectionimpar {
   background-color: #727273;
 }
@@ -84,29 +53,9 @@ footer {
   background-color: #908D90;
 }
 
-#section2 {
-    height:120px;
-}
-
-#section3 {
-    height: 750px;
-}
-
+#section2,
 #section4 {
-    height:110px;
-    padding: 20px;
-}
-
-#section5 {
-    height: 350px;
-}
-
-#section6 {
-    height: 500px;
-}
-
-#section7 {
-    height: 420px;
+    height:70px;
 }
 
 /* Nav */
@@ -141,6 +90,31 @@ nav li a:hover {
 }
 
 /* Header */
+
+header {
+  background-image: url("../img/photo-header.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  background-size: cover;
+  position: relative;
+}
+
+header p {
+  font-size: 24px;
+}
+
+header:after {
+  z-index: -1;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 header p {
   color: #FFF;
 }
@@ -161,7 +135,7 @@ header p {
   color: black;
 }
 
-/* Links */
+/* Faixa de Contato 1 - GitHub LikedIn Facebook */
 
 #section2 li {
   display: inline;
@@ -192,6 +166,10 @@ li {
 
 /* Imagens */
 
+#section3 {
+    height: 750px;
+}
+
 .fotos {
   display: flex;
   flex-flow: row;
@@ -203,7 +181,11 @@ li {
   margin: 5px;
 }
 
-/* Email e Whats */
+/* Faixa de Contato 2 - Email e Whats */
+
+#section4 {
+    padding: 20px;
+}
 
 #section4 ul {
   display: flex;
@@ -228,6 +210,10 @@ li {
 
 /* Formacao */
 
+#section5 {
+    height: 350px;
+}
+
 .formacao {
   display: flex;
   justify-content: center;
@@ -235,19 +221,27 @@ li {
 
 /* Skills */
 
+#section6 {
+    height: 500px;
+}
+
 .skills{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .itemskills {
-  height: 150px;
+  height: 120px;
   display: flex;
 }
 
 /* Form */
+
+#section7 {
+    height: 420px;
+}
 
 form {
   width: 550px;
@@ -257,9 +251,9 @@ form {
   border-radius: 7px;
   display: flex;
   flex-flow: column;
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #000000 , #434343);
+  background: linear-gradient(to left, #000000 , #434343);
 }
 
 input,
@@ -301,13 +295,15 @@ textarea {
 /* Footer */
 
 footer {
-   background-color: #000;
-   height: 50px;
-   padding-top: 15px;
-   display: flex;
-   flex-flow: row;
-   justify-content: space-between;
-   text-align: center;
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #000000 , #434343);
+  background: linear-gradient(to left, #000000 , #434343);
+  height: 50px;
+  padding-top: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  text-align: center;
 }
 
 footer p,
