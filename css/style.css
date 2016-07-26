@@ -56,7 +56,7 @@ header p {
 header:after {
   z-index: -1;
   content: '';
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 0;
   top: 0;
@@ -143,8 +143,8 @@ header p {
 }
 
 .imagem {
-  width: 25%;
-  height: 80%;
+  max-width: 50%;
+  height: 300px;
   margin-top: 30px;
   border-radius: 100%;
 }
