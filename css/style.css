@@ -40,7 +40,7 @@ footer {
 }
 
 header {
-  background-image: url("../img/photo-background.jpg");
+  background-image: url("../img/photo-header.jpg");
   background-size: cover;
   background-position: center;
   z-index: 2;
