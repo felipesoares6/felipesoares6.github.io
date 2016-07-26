@@ -26,6 +26,7 @@ img {
 h2 {
   text-align: center;
   margin-bottom: 15px;
+  font-size: 28px;
 }
 
 /* Sections Default */
@@ -48,6 +49,10 @@ header {
   position: relative;
 }
 
+header p {
+  font-size: 24px;
+}
+
 header:after {
   z-index: -1;
   content: '';
@@ -64,7 +69,6 @@ footer {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .sectionimpar {
@@ -80,7 +84,7 @@ footer {
 }
 
 #section3 {
-    height: 720px;
+    height: 750px;
 }
 
 #section4 {
@@ -211,10 +215,13 @@ form {
   width: 550px;
   margin: auto;
   padding: 20px 15px;
-  background-color: grey;
   box-sizing: border-box;
   border-radius: 7px;
-  color: black;
+  display: flex;
+  flex-flow: column;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 input,
@@ -224,6 +231,7 @@ textarea {
   padding: 8px;
   box-sizing: border-box;
   font-size: 15px;
+  border-radius: 3px;
 }
 
 textarea {
@@ -232,16 +240,24 @@ textarea {
   max-width: 100%;
 }
 
-input,
-textarea {
-  margin-bottom: 10px;
+
+#section7 button {
+  margin: auto;
+  color: #FFF;
+  height: 40px;
+  width: 140px;
+  padding: 2px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(194, 194, 194, 0.7);
+  border-radius: 3px;
+  transition: all 0.2s ease;
 }
 
-#botao {
-  padding: 10px;
-  margin-top: 20px;
-  font-size: 15px;
-  font-family: monospace;
+
+#section7 button:hover {
+  background-color: rgba(194, 194, 194, 0.2);
 }
 
 /* Footer */
