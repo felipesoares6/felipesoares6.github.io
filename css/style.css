@@ -216,27 +216,22 @@ textarea {
 /* Footer */
 
 footer {
-   background-color: black;
+   background-color: #000;
    height: 50px;
    padding-top: 15px;
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
+   text-align: center;
 }
 
+footer p,
 footer a {
-   color: white;
-}
-
-.rodape {
-  color: white;
-  margin-top: 15px;
+  color: #FFF;
   font-size: 16px;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-weight: bold;
 }
 
-#esquerda {
-  float: left
-}
-
-#direita {
-  float: right;
+.item-footer {
+  padding: 0px 30px;
 }
