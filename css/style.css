@@ -1,3 +1,5 @@
+/* Reset */
+
 body,
 h2 {
   margin: 0;
@@ -7,6 +9,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 ul {
@@ -21,11 +24,6 @@ p {
 
 img {
   max-width: 100%;
-}
-
-.flexcenter {
-  display: flex;
-  justify-content: center;
 }
 
 h2 {
@@ -51,6 +49,11 @@ footer {
 
 .sectionpar {
   background-color: #908D90;
+}
+
+.flexcenter {
+  display: flex;
+  justify-content: center;
 }
 
 #section2,
@@ -137,32 +140,33 @@ header p {
 
 /* Faixa de Contato 1 - GitHub LikedIn Facebook */
 
-#section2 li {
-  display: inline;
-  margin: 0px 80px;
-  text-align: center;
+#section2 {
+    display: flex;
+    padding-top: 10px;
 }
 
-i,
-li {
-  color: black;
-}
-
-.links {
+#section2 ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-flow: row;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
 }
 
-#section2 a {
-  transition: all 0.3s ease;
+#section2 p {
+  display: inline;
+  margin-left: 6px;
 }
 
-#section2 a:hover {
-  color:#000;
-
-	font-size:120%;
+#section2 li {
+  color: black;
+  margin: auto 40px;
 }
+
+#section2 li:hover {
+	font-size:102%;
+}
+
 
 /* Imagens */
 
