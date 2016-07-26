@@ -51,13 +51,8 @@ footer {
   background-color: #908D90;
 }
 
-.flexcenter {
-  display: flex;
-  justify-content: center;
-}
-
-#section2,
-#section4 {
+.faixa-contato-1,
+.faixa-contato-2 {
     height:70px;
 }
 
@@ -140,12 +135,12 @@ header p {
 
 /* Faixa de Contato 1 - GitHub LikedIn Facebook */
 
-#section2 {
+.faixa-contato-1 {
     display: flex;
     padding-top: 10px;
 }
 
-#section2 ul {
+.faixa-contato-1 ul {
   display: flex;
   flex-flow: row;
   margin: auto;
@@ -153,24 +148,24 @@ header p {
   justify-content: center;
 }
 
-#section2 p {
+.faixa-contato-1 p {
   display: inline;
   margin-left: 6px;
 }
 
-#section2 li {
+.faixa-contato-1 li {
   color: black;
   margin: auto 40px;
 }
 
-#section2 li:hover {
+.faixa-contato-1 li:hover {
 	font-size:102%;
 }
 
 
 /* Imagens */
 
-#section3 {
+.section-imagens {
     height: 750px;
 }
 
@@ -187,45 +182,42 @@ header p {
 
 /* Faixa de Contato 2 - Email e Whats */
 
-#section4 {
+.faixa-contato-2 {
     padding: 20px;
 }
 
-#section4 ul {
+.faixa-contato-2 ul {
   display: flex;
   flex-flow: row;
   margin: auto;
 }
 
-#section4 p {
+.faixa-contato-2 p {
   display: inline;
   margin-left: 6px;
 }
 
-#section4 li {
+.faixa-contato-2 li {
   color: black;
   margin: auto 40px;
 }
 
-#section4 li:hover {
+.faixa-contato-2 li:hover {
 	font-size:102%;
 }
 
 
 /* Formacao */
 
-#section5 {
-    height: 350px;
-}
-
-.formacao {
+.section-formacao {
+  height: 350px;
   display: flex;
   justify-content: center;
 }
 
 /* Skills */
 
-#section6 {
+.section-skills {
     height: 500px;
 }
 
@@ -243,7 +235,7 @@ header p {
 
 /* Form */
 
-#section7 {
+.section-contato {
     height: 420px;
 }
 
@@ -277,7 +269,7 @@ textarea {
 }
 
 
-#section7 button {
+.section-contato button {
   margin: auto;
   color: #FFF;
   height: 40px;
@@ -292,7 +284,7 @@ textarea {
 }
 
 
-#section7 button:hover {
+.section-contato button:hover {
   background-color: rgba(194, 194, 194, 0.2);
 }
 
