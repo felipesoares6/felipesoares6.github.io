@@ -4,6 +4,7 @@ $(function(){
     var $email = $('#email');
     var $mensagem = $('#mensagem');
     if($nome.val() == '' || $email.val() == '' || $mensagem.val() == ''){
+      e.preventDefault();
       alert('Todos os campos devem ser preenchidos!');
     }else{
       $.ajax({
