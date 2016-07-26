@@ -39,16 +39,44 @@ footer {
   overflow: hidden;
 }
 
+header {
+  background-image: url("../img/photo-background.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  background-size: cover;
+  position: relative;
+}
+
+header:after {
+  z-index: -1;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+footer {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .sectionimpar {
-  background-color: #8c8c8c;
+  background-color: #727273;
 }
 
 .sectionpar {
-  background-color: #b3b3b3;
+  background-color: #908D90;
 }
 
 #section2 {
-    height:130px;
+    height:120px;
 }
 
 #section3 {
@@ -106,6 +134,9 @@ li a:hover {
 }
 
 /* Header */
+header p {
+  color: #FFF;
+}
 
 .imagem {
   width: 25%;
