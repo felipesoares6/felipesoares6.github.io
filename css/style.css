@@ -96,6 +96,9 @@ header {
   z-index: 2;
   background-size: cover;
   position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 header p {
@@ -115,6 +118,11 @@ header:after {
 
 header p {
   color: #FFF;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
 }
 
 .imagem {
@@ -137,7 +145,7 @@ header p {
 
 .faixa-contato-1 {
     display: flex;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 .faixa-contato-1 ul {
@@ -183,6 +191,7 @@ header p {
 /* Faixa de Contato 2 - Email e Whats */
 
 .faixa-contato-2 {
+    display: flex;
     padding: 20px;
 }
 
@@ -190,8 +199,8 @@ header p {
   display: flex;
   flex-flow: row;
   margin: auto;
+  justify-content: center;
 }
-
 .faixa-contato-2 p {
   display: inline;
   margin-left: 6px;
