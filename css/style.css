@@ -9,6 +9,11 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
+
 p {
   color: black;
   font-size: 21px;
@@ -106,8 +111,7 @@ footer {
 
 /* Nav */
 
-ul {
-    list-style-type: none;
+nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -118,12 +122,11 @@ ul {
     z-index: 999;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
-    text-decoration: none;
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -131,7 +134,7 @@ li a {
 }
 
 
-li a:hover {
+nav li a:hover {
     background-color: #a6a6a6;
     text-decoration: none;
     color: white;
@@ -160,7 +163,14 @@ header p {
 
 /* Links */
 
-i {
+#section2 li {
+  display: inline;
+  margin: 0px 80px;
+  text-align: center;
+}
+
+i,
+li {
   color: black;
 }
 
@@ -170,8 +180,13 @@ i {
   justify-content: space-around;
 }
 
+#section2 a {
+  transition: all 0.3s ease;
+}
+
 #section2 a:hover {
   color:#000;
+
 	font-size:120%;
 }
 
@@ -187,6 +202,29 @@ i {
   height: 340px;
   margin: 5px;
 }
+
+/* Email e Whats */
+
+#section4 ul {
+  display: flex;
+  flex-flow: row;
+  margin: auto;
+}
+
+#section4 p {
+  display: inline;
+  margin-left: 6px;
+}
+
+#section4 li {
+  color: black;
+  margin: auto 40px;
+}
+
+#section4 li:hover {
+	font-size:102%;
+}
+
 
 /* Formacao */
 
@@ -252,7 +290,7 @@ textarea {
   font-weight: bold;
   background-color: rgba(194, 194, 194, 0.7);
   border-radius: 3px;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 
