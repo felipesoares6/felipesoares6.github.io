@@ -191,7 +191,7 @@ header p {
 @media (min-width: 1024px){
   .imagem {
     max-width: 50%;
-    max-height: 320px;
+    height: 300px;
     margin-top: 30px;
     border-radius: 100%;
   }
@@ -550,6 +550,7 @@ textarea {
 
   .section-contato h2{
     font-size: 38px;
+    margin-top: 10px;
   }
 
   .section-contato form {
@@ -593,6 +594,7 @@ textarea {
     max-width: 80vh;
     margin: 10px auto;
     padding-bottom: 26px;
+    margin-top: 40px;
   }
 
   .section-contato button {

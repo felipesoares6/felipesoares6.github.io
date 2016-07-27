@@ -1,11 +1,13 @@
 $(function(){
+  /* scroll suave */
   var $doc = $('html, body');
   $('a').click(function() {
     $doc.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+    }, 1000);
     return false;
   });
+  /* envio do formulario */
   $('#formulario').on('submit', function(e){
     var $nome = $('#nome');
     var $email = $('#email');
