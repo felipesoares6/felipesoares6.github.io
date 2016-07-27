@@ -152,7 +152,8 @@
         <h2>Contato</h2>
         <form id="formulario">
          <input id="nome" type=text name="name" placeholder="Nome">
-         <input id="email" type=email name="email" placeholder="Email">
+         <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" id="email"
+         type=email name="email" placeholder="Email">
          <textarea id="mensagem" name="message" placeholder="Mensagem" wrap="virtual"></textarea>
          <button type="submit">Enviar</button>
          <input type="hidden" name="_next" value="" />
