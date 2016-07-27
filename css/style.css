@@ -83,21 +83,22 @@ footer {
 
 nav ul {
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
   overflow: hidden;
   background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
-
 
 nav li a {
   display: block;
   color: white;
-  float: left;
-  text-align: center;
+  margin: auto;
   padding: 18px 7px;
 }
 
