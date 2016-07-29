@@ -87,7 +87,7 @@ nav ul {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
   z-index: 999;
   display: flex;
@@ -99,7 +99,7 @@ nav li a {
   display: block;
   color: white;
   margin: auto;
-  padding: 28px 7px;
+  padding: 18px 7px;
 }
 
 
@@ -110,16 +110,16 @@ nav li a:hover {
 }
 
 @media (min-width: 768px){
-  nav li {
-    float: left;
-  }
   nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 22px 16px;
   }
+}
 
+@media (min-width: 1024px){
+  nav ul {
+    top: 0;
+    bottom: auto;
+  }
 }
 
 /* Header */
