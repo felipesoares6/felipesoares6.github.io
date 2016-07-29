@@ -616,6 +616,13 @@ textarea {
   }
 }
 
+
+@media (min-width: 1080px) {
+  .section-contato {
+    padding-top: 220px;
+  }
+}
+
 /* Footer */
 
 footer {
