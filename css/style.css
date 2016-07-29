@@ -621,6 +621,7 @@ footer {
   justify-content: space-between;
   text-align: center;
   min-height: 50vh;
+  padding-bottom: 15vh;
 }
 
 footer p,
@@ -664,5 +665,6 @@ footer a {
     padding-top: 5px;
     flex-flow: row;
     justify-content: space-between;
+    padding-bottom: 0vh;
   }
 }
