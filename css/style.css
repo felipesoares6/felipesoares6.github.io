@@ -113,9 +113,7 @@ nav li a:hover {
   nav li a {
     padding: 22px 16px;
   }
-}
 
-@media (min-width: 1024px){
   nav ul {
     top: 0;
     bottom: auto;
@@ -613,13 +611,13 @@ footer {
   background: #000000;
   background: -webkit-linear-gradient(to left, #000000 , #434343);
   background: linear-gradient(to left, #000000 , #434343);
-  padding-top: 45px;
+  padding-top: 5px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   text-align: center;
-  min-height: 50vh;
-  padding-bottom: 15vh;
+  min-height: 10vh;
+  padding-bottom: 11vh;
 }
 
 footer p,
@@ -629,7 +627,7 @@ footer a {
 }
 
 .item-footer {
-  padding: 25px 30px;
+  padding: 5px 30px;
 }
 
 .code-by {
@@ -645,6 +643,7 @@ footer a {
     padding-bottom: 30px;
     flex-flow: row;
     justify-content: space-between;
+    padding-bottom: 0vh;
   }
 
   .item-footer {
@@ -660,8 +659,5 @@ footer a {
   footer {
     height: 60px;
     padding-top: 5px;
-    flex-flow: row;
-    justify-content: space-between;
-    padding-bottom: 0vh;
   }
 }
