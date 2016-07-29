@@ -628,7 +628,6 @@ footer p,
 footer a {
   color: #FFF;
   font-size: 16px;
-  font-weight: bold;
 }
 
 .item-footer {
@@ -636,7 +635,7 @@ footer a {
 }
 
 .code-by {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
