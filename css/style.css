@@ -479,6 +479,13 @@ header p {
 
 }
 
+
+@media (min-width: 1080px) {
+  .section-skills {
+    padding-top: 180px;
+  }
+}
+
 /* Form */
 .section-contato{
   padding-top: 120px;
