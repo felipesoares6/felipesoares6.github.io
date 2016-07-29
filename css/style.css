@@ -284,7 +284,6 @@ header p {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    margin-top: 30px;
   }
 
   .item-fotos {
@@ -293,7 +292,6 @@ header p {
   }
 
 }
-
 
 @media (min-width: 1025px) {
   .section-imagens{
@@ -308,8 +306,14 @@ header p {
   }
 
   .item-fotos {
-    max-height: 320px;
+    max-height: 305px;
     margin: 2px 5px;
+  }
+}
+
+@media (min-width: 1080px){
+  .section-imagens {
+    padding-top: 150px;
   }
 }
 
