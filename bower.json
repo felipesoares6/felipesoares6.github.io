@@ -15,7 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "fontawesome#^4.6.3",
-    "normalize-strings": "normalize#^1.1.0"
+    "font-awesome": "^4.6.3",
+    "normalize-scss": "^3.0.3"
   }
 }
