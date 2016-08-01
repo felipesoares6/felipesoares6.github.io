@@ -1,0 +1,80 @@
+header {
+  background-image: url("https://source.unsplash.com/featured/?mountain");
+  /*background-image: url("../img/photo-header.jpg");*/
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+}
+header:after {
+  z-index: -1;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header p {
+  color: #FFF;
+  font-size: 22px;
+  text-align: center;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.imagem {
+  max-width: 80%;
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 100%;
+}
+
+.sobre {
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  color: black;
+}
+
+
+@media (min-width: 768px){
+  .imagem {
+    max-width: 65%;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 100%;
+  }
+
+  header p {
+    color: #FFF;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px){
+  .imagem {
+    max-width: 50%;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 100%;
+  }
+
+  header p {
+    color: #FFF;
+    font-size: 24px;
+  }
+
+}

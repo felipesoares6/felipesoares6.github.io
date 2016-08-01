@@ -1,0 +1,135 @@
+.section-contato{
+  padding-top: 120px;
+}
+
+form {
+  max-width: 350px;
+  margin: auto;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  display: flex;
+  flex-flow: column;
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #000000 , #434343);
+  background: linear-gradient(to left, #000000 , #434343);
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+
+.section-contato button {
+  margin: auto;
+  color: #FFF;
+  min-height: 40px;
+  min-width: 120px;
+  max-width: 100%;
+  padding: 2px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(194, 194, 194, 0.7);
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+
+.section-contato button:hover {
+  background-color: rgba(194, 194, 194, 0.2);
+}
+
+@media (min-width:667px){
+  .section-contato{
+    padding-top: 40px;
+  }
+
+  form {
+    max-width: 120vh;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (min-width:768px) {
+  .section-contato{
+    padding-top: 250px;
+  }
+
+  .section-contato h2{
+    font-size: 38px;
+    margin-top: 10px;
+  }
+
+  .section-contato form {
+    max-width: 100vh;
+    margin: 0 30px;
+    padding-bottom: 50px;
+  }
+
+  .section-contato input,
+  .section-contato textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    font-size: 28px;
+  }
+
+  .section-contato button {
+    margin: auto;
+    min-height: 60px;
+    min-width: 270px;
+    margin-top: 14px;
+    font-size: 24px;
+  }
+
+}
+
+@media (min-width: 1024px){
+  .section-contato {
+    padding-top: 100px;
+  }
+
+  .section-contato input,
+  .section-contato textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .section-contato form {
+    max-width: 80vh;
+    margin: 10px auto;
+    padding-bottom: 26px;
+    margin-top: 40px;
+  }
+
+  .section-contato button {
+    margin: auto;
+    min-height: 20px;
+    min-width: 200px;
+    margin-top: 12px;
+    font-size: 24px;
+  }
+}
+
+
+@media (min-width: 1920px) {
+  .section-contato {
+    padding-top: 220px;
+  }
+}

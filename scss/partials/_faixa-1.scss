@@ -1,0 +1,41 @@
+.faixa-contato-1 {
+  text-align: center;
+  padding-right: 30px;
+}
+
+.faixa-contato-1 ul {
+  display: flex;
+  flex-flow: column;
+}
+
+.faixa-contato-1 li {
+  color: black;
+  margin: 30px 0;
+}
+
+.faixa-contato-1 li:hover {
+	font-size:102%;
+}
+
+@media (min-width: 768px){
+
+  .faixa-contato-1 {
+    padding: 20px;
+  }
+
+  .faixa-contato-1 ul {
+    flex-flow: row;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .faixa-contato-1 li {
+    color: black;
+    margin: auto 40px;
+  }
+
+  .faixa-contato-1 p {
+    display: inline;
+    margin-left: 6px;
+  }
+}
