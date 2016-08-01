@@ -18,10 +18,8 @@ footer a {
 }
 
 .item-footer {
-  padding: 5px 30px;
-}
-
-.code-by {
+  padding: 0px 30px;
+  padding-bottom: 12px;
   font-size: 18px;
 }
 
@@ -32,7 +30,7 @@ footer {
     padding-top: 1px;
     padding-bottom: 30px;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 0vh;
   }
 }
@@ -40,14 +38,10 @@ footer {
 .item-footer {
   @include tablet {
     padding: 10px 30px;
-  }
-}
-
-.code-by {
-  @include tablet {
     padding-top: 1px;
   }
 }
+
 
 footer {
   @include desktop {
