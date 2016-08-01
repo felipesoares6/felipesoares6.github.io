@@ -17,26 +17,31 @@
 	font-size:102%;
 }
 
-@media (min-width: 768px) {
-  .faixa-contato-2 {
+.faixa-contato-2 {
+    @include tablet {
       display: flex;
       padding: 20px;
-  }
+    }
+}
 
-  .faixa-contato-2 ul {
+.faixa-contato-2 ul {
+  @include tablet {
     display: flex;
     flex-flow: row;
     margin: auto;
     justify-content: center;
   }
-  .faixa-contato-2 p {
+}
+.faixa-contato-2 p {
+  @include tablet {
     display: inline;
     margin-left: 6px;
   }
+}
 
-  .faixa-contato-2 li {
+.faixa-contato-2 li {
+  @include tablet {
     color: black;
     margin: auto 30px;
   }
-
 }

@@ -26,12 +26,14 @@ nav li a:hover {
   color: white;
 }
 
-@media (min-width: 768px){
-  nav li a {
+nav li a {
+  @include tablet {
     padding: 22px 16px;
   }
+}
 
-  nav ul {
+nav ul {
+  @include tablet {
     top: 0;
     bottom: auto;
   }

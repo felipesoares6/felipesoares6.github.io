@@ -7,30 +7,19 @@
   padding-bottom: 40px;
 }
 
-@media (min-width: 768px) {
-  .section-formacao {
-    font-size: 25px;
-  }
-  .section-formacao h2 {
-    font-size: 45px;
-  }
-
-  .section-formacao p {
-    font-size: 32px;
-  }
-
-}
-
-@media (min-width: 768px) {
-  .section-formacao {
+.section-formacao {
+  @include tablet {
     font-size: 18px;
   }
-  .section-formacao h2 {
+}
+.section-formacao h2 {
+  @include tablet {
     font-size: 38px;
   }
+}
 
-  .section-formacao p {
+.section-formacao p {
+  @include tablet {
     font-size: 24px;
   }
-
 }

@@ -25,9 +25,8 @@ footer a {
   font-size: 18px;
 }
 
-
-@media (min-width: 768px){
-  footer {
+footer {
+  @include tablet {
     min-height: 0;
     height: 70px;
     padding-top: 1px;
@@ -36,18 +35,22 @@ footer a {
     justify-content: space-between;
     padding-bottom: 0vh;
   }
+}
 
-  .item-footer {
+.item-footer {
+  @include tablet {
     padding: 10px 30px;
   }
+}
 
-  .code-by{
+.code-by {
+  @include tablet {
     padding-top: 1px;
   }
 }
 
-@media (min-width: 1024px) {
-  footer {
+footer {
+  @include desktop {
     height: 60px;
     padding-top: 5px;
   }

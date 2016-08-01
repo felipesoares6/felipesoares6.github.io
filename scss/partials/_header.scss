@@ -49,32 +49,38 @@ header p {
   color: black;
 }
 
-
-@media (min-width: 768px){
-  .imagem {
+.imagem {
+  @include tablet {
     max-width: 65%;
     height: 500px;
     margin-top: 30px;
     border-radius: 100%;
   }
+}
 
-  header p {
+
+header p {
+  @include tablet {
     color: #FFF;
     font-size: 28px;
   }
 }
 
-@media (min-width: 1024px){
-  .imagem {
+
+
+.imagem {
+  @include desktop {
+    border-radius: 100%;
     max-width: 50%;
     height: 300px;
     margin-top: 30px;
-    border-radius: 100%;
   }
+}
 
-  header p {
+
+header p {
+  @include desktop {
     color: #FFF;
     font-size: 24px;
   }
-
 }

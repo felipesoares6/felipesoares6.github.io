@@ -52,73 +52,87 @@ textarea {
   background-color: rgba(194, 194, 194, 0.2);
 }
 
-@media (min-width:667px){
-  .section-contato{
+.section-contato {
+  @include landscape {
     padding-top: 40px;
   }
+}
 
-  form {
+form {
+  @include landscape {
     max-width: 120vh;
     margin-bottom: 30px;
   }
-
 }
 
-@media (min-width:768px) {
-  .section-contato{
+.section-contato{
+  @include tablet {
     padding-top: 250px;
   }
+}
 
-  .section-contato h2{
+.section-contato h2 {
+  @include tablet {
     font-size: 38px;
     margin-top: 10px;
   }
+}
 
-  .section-contato form {
+.section-contato form {
+  @include tablet {
     max-width: 100vh;
     margin: 0 30px;
     padding-bottom: 50px;
   }
+}
 
-  .section-contato input,
-  .section-contato textarea {
+.section-contato input,
+.section-contato textarea {
+  @include tablet {
     margin-bottom: 20px;
     width: 100%;
     padding: 20px;
     font-size: 28px;
   }
+}
 
-  .section-contato button {
+.section-contato button {
+  @include tablet {
     margin: auto;
     min-height: 60px;
     min-width: 270px;
     margin-top: 14px;
     font-size: 24px;
   }
-
 }
 
-@media (min-width: 1024px){
-  .section-contato {
+.section-contato {
+  @include desktop {
     padding-top: 100px;
   }
+}
 
-  .section-contato input,
-  .section-contato textarea {
+.section-contato input,
+.section-contato textarea {
+  @include desktop {
     margin-bottom: 20px;
     width: 100%;
     padding: 10px;
     font-size: 18px;
   }
+}
 
-  .section-contato form {
+.section-contato form {
+  @include desktop {
     max-width: 80vh;
     margin: 10px auto;
     padding-bottom: 26px;
     margin-top: 40px;
   }
+}
 
-  .section-contato button {
+.section-contato button {
+  @include desktop {
     margin: auto;
     min-height: 20px;
     min-width: 200px;
@@ -127,9 +141,8 @@ textarea {
   }
 }
 
-
-@media (min-width: 1920px) {
-  .section-contato {
+.section-contato {
+  @include desktop-large-large {
     padding-top: 220px;
   }
 }

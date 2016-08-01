@@ -53,27 +53,21 @@ footer {
   background-color: #908D90;
 }
 
-@media (min-width: 768px){
-  header,
-  section,
-  footer {
+header,
+section,
+footer {
+  @include tablet {
     padding-top:50px;
     height:640px;
     color: #fff;
     overflow: hidden;
   }
+}
 
+@include tablet {
   .faixa-contato-1,
   .faixa-contato-2 {
-    min-height: 50vh;
+    min-height: 0vh;
+    height: 90px;
   }
-
-  @media (min-width: 768px){
-    .faixa-contato-1,
-    .faixa-contato-2 {
-      min-height: 0vh;
-      height: 90px;
-    }
-  }
-
 }
