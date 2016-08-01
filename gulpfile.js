@@ -7,6 +7,15 @@ var gulp = require('gulp'),
     clean = require('gulp-clean'),
     browserSync = require('browser-sync').create();
 
+gulp.task('dependencies', function() {
+    gulp.src('bower_components/font-awesome/css/font-awesome.css')
+        .pipe(rename('_font-awesome.scss'))
+        .pipe(gulp.dest('./scss/libs/'));
+
+    gulp.src('bower_components/normalize-scss/_normalize.scss')
+        .pipe(gulp.dest('./scss/libs/'));
+});
+
 gulp.task('sass', function() {
     gulp.src('scss/style.scss')
     .pipe(sass().on('error', sass.logError))
