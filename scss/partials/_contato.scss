@@ -11,9 +11,7 @@ form {
   border-radius: 7px;
   display: flex;
   flex-flow: column;
-  background: #000000;
-  background: -webkit-linear-gradient(to left, #000000 , #434343);
-  background: linear-gradient(to left, #000000 , #434343);
+  background: $cor-form;
 }
 
 input,
@@ -43,14 +41,14 @@ textarea {
   margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
-  background-color: rgba(194, 194, 194, 0.7);
+  background-color: $cor-botao-out;
   border-radius: 3px;
   transition: all 0.3s ease;
 }
 
 
 .section-contato button:hover {
-  background-color: rgba(194, 194, 194, 0.2);
+  background-color: $cor-botao-in;
 }
 
 .section-contato {
