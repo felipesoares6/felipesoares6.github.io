@@ -1,7 +1,5 @@
 footer {
-  background: #000000;
-  background: -webkit-linear-gradient(to left, #000000 , #434343);
-  background: linear-gradient(to left, #000000 , #434343);
+  background-color: $cor-footer;
   padding-top: 5px;
   display: flex;
   flex-flow: column;

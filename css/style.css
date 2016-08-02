@@ -2644,7 +2644,8 @@ nav ul {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #000; }
 
 nav li a {
   display: block;
@@ -3012,7 +3013,7 @@ form {
   -webkit-flex-flow: column;
   -ms-flex-flow: column;
   flex-flow: column;
-  background: #4D4C4C; }
+  background: #000; }
 
 input,
 textarea {
@@ -3122,11 +3123,7 @@ textarea {
     padding-top: 220px; } }
 
 footer {
-  background: #000000;
-  background: -webkit-linear-gradient(to left, #000000, #434343);
-  background: -webkit-gradient(linear, right top, left top, from(#000000), to(#434343));
-  background: -webkit-linear-gradient(right, #000000, #434343);
-  background: linear-gradient(to left, #000000, #434343);
+  background-color: #000;
   padding-top: 5px;
   display: -webkit-box;
   display: -webkit-flex;

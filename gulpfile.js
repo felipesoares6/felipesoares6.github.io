@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     rename = require('gulp-rename'),
     sass = require('gulp-sass'),
-    minify = require('gulp-minify-css'),
+    minifyCss = require('gulp-minify-css'),
     autoprefixer = require('gulp-autoprefixer'),
     imagemin = require('gulp-imagemin'),
     clean = require('gulp-clean'),
