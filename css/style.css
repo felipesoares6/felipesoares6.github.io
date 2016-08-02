@@ -329,9 +329,9 @@ header p {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-flex-flow: column;
-  -ms-flex-flow: column;
-  flex-flow: column; }
+  -webkit-flex-flow: column-reverse;
+  -ms-flex-flow: column-reverse;
+  flex-flow: column-reverse; }
 
 .itemskills {
   height: 160px;
