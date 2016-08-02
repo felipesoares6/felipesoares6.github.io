@@ -4,7 +4,7 @@ $(function(){
   $('a').click(function() {
     $doc.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 1000);
+    }, 600);
     return false;
   });
   /* envio do formulario */
