@@ -93,8 +93,9 @@
   }
 }
 
-.section-skills {
-  @include desktop-large-large {
-    padding-top: 180px;
+
+@media (min-width: 1800px){
+  .section-skills h2{
+    padding-top: 18vh;
   }
 }

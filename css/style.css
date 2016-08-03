@@ -792,9 +792,9 @@ header p {
     display: flex;
     margin: 54px auto; } }
 
-@media (min-width: desktop-large-large-width) {
-  .section-skills {
-    padding-top: 180px; } }
+@media (min-width: 1800px) {
+  .section-skills h2 {
+    padding-top: 18vh; } }
 
 .section-contato {
   padding-top: 120px;
@@ -921,9 +921,9 @@ textarea {
     margin-top: 12px;
     font-size: 24px; } }
 
-@media (min-width: desktop-large-large-width) {
-  .section-contato {
-    padding-top: 220px; } }
+@media (min-width: 1800px) {
+  .section-contato h2 {
+    padding-top: 16vh; } }
 
 footer {
   background-color: #000;

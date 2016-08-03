@@ -1,7 +1,6 @@
 $tablet-width: 768px;
 $desktop-width: 1024px;
 $desktop-large-width: 1025px;
-$desktop-large-large-width: 1920px;
 
 
 @mixin landscape {
@@ -24,12 +23,6 @@ $desktop-large-large-width: 1920px;
 
 @mixin desktop-large {
   @media (min-width: #{desktop-large-width}) {
-    @content;
-  }
-}
-
-@mixin desktop-large-large {
-  @media (min-width: #{desktop-large-large-width}) {
     @content;
   }
 }
