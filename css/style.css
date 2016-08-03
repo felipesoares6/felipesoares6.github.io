@@ -822,6 +822,7 @@ input,
 textarea {
   margin-bottom: 10px;
   width: 100%;
+  color: #000;
   padding: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
