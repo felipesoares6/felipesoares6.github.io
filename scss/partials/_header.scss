@@ -9,8 +9,9 @@ header {
   display: flex;
   flex-flow: column;
   justify-content: center;
-
+  background-attachment: fixed;
 }
+
 header:after {
   z-index: -1;
   content: '';
