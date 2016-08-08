@@ -878,6 +878,7 @@ textarea {
 
 .section-contato button {
   margin: auto;
+  letter-spacing: 2px;
   color: #FFF;
   min-height: 40px;
   min-width: 120px;
@@ -885,7 +886,6 @@ textarea {
   padding: 2px;
   margin-top: 10px;
   font-size: 18px;
-  font-weight: bold;
   background-color: rgba(194, 194, 194, 0.2);
   -webkit-border-radius: 3px;
   border-radius: 3px;
