@@ -1,6 +1,24 @@
-.section-contato{
+.section-contato {
   padding-top: 120px;
   background-color: $cor-primaria;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 2;
+  position: relative;
+}
+
+.section-contato:after {
+  z-index: -1;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
 }
 
 form {
