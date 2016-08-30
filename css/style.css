@@ -687,7 +687,6 @@ header p {
     margin: auto 30px; } }
 
 .section-formacao {
-  height: 350px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
