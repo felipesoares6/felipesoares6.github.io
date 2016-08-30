@@ -9,45 +9,47 @@ header {
   flex-flow: column;
   justify-content: center;
   background-attachment: fixed;
+
+  &:after {
+    z-index: -1;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  p {
+    color: #FFF;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .img-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagem {
+    max-width: 80%;
+    height: 260px;
+    margin-top: 30px;
+    border-radius: 100%;
+  }
+
+  .sobre {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    color: black;
+  }
+
 }
 
-header:after {
-  z-index: -1;
-  content: '';
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-header p {
-  color: #FFF;
-  font-size: 22px;
-  text-align: center;
-}
-
-.img-div {
-  display: flex;
-  justify-content: center;
-}
-
-.imagem {
-  max-width: 80%;
-  height: 260px;
-  margin-top: 30px;
-  border-radius: 100%;
-}
-
-.sobre {
-  padding: 10px;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  font-size: 21px;
-  color: black;
-}
 
 .imagem {
   @include tablet {
