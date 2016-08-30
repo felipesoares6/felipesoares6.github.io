@@ -1,10 +1,13 @@
 .section-formacao {
   display: flex;
   flex-flow: column;
-  justify-content: center;
   text-align: center;
-  padding-bottom: 40px;
   background-color: $cor-primaria;
+
+  div {
+    margin: auto 10px;
+  }
+
 }
 
 .section-formacao {

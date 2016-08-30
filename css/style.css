@@ -694,13 +694,10 @@ header p {
   -webkit-flex-flow: column;
   -ms-flex-flow: column;
   flex-flow: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   text-align: center;
-  padding-bottom: 40px;
   background-color: #646464; }
+  .section-formacao div {
+    margin: auto 10px; }
 
 @media (min-width: 768px) {
   .section-formacao {
