@@ -1,16 +1,18 @@
 .faixa-contato-1 {
   text-align: center;
-  padding-right: 30px;
+  display: flex;
+  flex-flow: column;
   background-color: $cor-auxiliar;
 
   ul {
+    margin: auto;
     display: flex;
     flex-flow: column;
   }
 
   li {
     color: black;
-    margin: 30px 0;
+    margin: 30px auto;
 
     &:hover {
       font-size:102%;

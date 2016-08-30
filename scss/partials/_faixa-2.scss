@@ -1,27 +1,31 @@
 .faixa-contato-2 {
-  text-align: center;
-  padding-right: 30px;
-  background-color: $cor-auxiliar;
-}
-
-.faixa-contato-2 ul {
   display: flex;
-  flex-flow: column-reverse;
-}
+  text-align: center;
+  flex-flow: column;
+  background-color: $cor-auxiliar;
 
-.faixa-contato-2 li {
-  color: black;
-  margin: 80px 0;
-}
+  ul {
+    margin: auto;
+    display: flex;
+    flex-flow: column-reverse;
+  }
 
-.faixa-contato-2 li:hover {
-	font-size:102%;
+  li {
+    margin: 70px auto;
+    color: black;
+
+    &:hover {
+      font-size:102%;
+    }
+  }
+
 }
 
 .faixa-contato-2 {
     @include tablet {
       display: flex;
       padding: 20px;
+      font-size: 22px;
     }
 }
 

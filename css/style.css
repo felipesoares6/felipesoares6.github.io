@@ -380,7 +380,8 @@ th {
   box-sizing: border-box; }
 
 body,
-h2 {
+h2,
+ul {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif, serif; }
@@ -583,9 +584,16 @@ header {
 
 .faixa-contato-1 {
   text-align: center;
-  padding-right: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
   background-color: #9D9D9D; }
   .faixa-contato-1 ul {
+    margin: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -595,7 +603,7 @@ header {
     flex-flow: column; }
   .faixa-contato-1 li {
     color: black;
-    margin: 30px 0; }
+    margin: 30px auto; }
     .faixa-contato-1 li:hover {
       font-size: 102%; }
 
@@ -625,25 +633,29 @@ header {
     margin-left: 6px; } }
 
 .faixa-contato-2 {
-  text-align: center;
-  padding-right: 30px;
-  background-color: #9D9D9D; }
-
-.faixa-contato-2 ul {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: column-reverse;
-  -ms-flex-flow: column-reverse;
-  flex-flow: column-reverse; }
-
-.faixa-contato-2 li {
-  color: black;
-  margin: 80px 0; }
-
-.faixa-contato-2 li:hover {
-  font-size: 102%; }
+  text-align: center;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  background-color: #9D9D9D; }
+  .faixa-contato-2 ul {
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column-reverse;
+    -ms-flex-flow: column-reverse;
+    flex-flow: column-reverse; }
+  .faixa-contato-2 li {
+    margin: 70px auto;
+    color: black; }
+    .faixa-contato-2 li:hover {
+      font-size: 102%; }
 
 @media (min-width: 768px) {
   .faixa-contato-2 {
@@ -651,7 +663,8 @@ header {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 20px; } }
+    padding: 20px;
+    font-size: 22px; } }
 
 @media (min-width: 768px) {
   .faixa-contato-2 ul {
