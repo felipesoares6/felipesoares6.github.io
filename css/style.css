@@ -660,8 +660,7 @@ header {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 20px;
-    font-size: 22px; } }
+    padding: 20px; } }
 
 @media (min-width: 768px) {
   .faixa-contato-2 ul {
