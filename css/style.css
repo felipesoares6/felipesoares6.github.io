@@ -717,7 +717,7 @@ header {
     font-size: 24px; } }
 
 .section-skills {
-  min-height: 200vh;
+  min-height: 100vh;
   background-color: #7F7F7F; }
 
 .skills {
@@ -731,7 +731,7 @@ header {
   flex-flow: column-reverse; }
 
 .itemskills {
-  height: 160px;
+  height: 120px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
