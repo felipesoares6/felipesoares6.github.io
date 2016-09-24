@@ -493,7 +493,7 @@ nav {
     margin: 0; } }
 
 header {
-  background-image: url("https://source.unsplash.com/featured/?mountain");
+  background-image: url("source.unsplash.com/featured/?mountain");
   background-color: #7f7f7f;
   background-size: cover;
   background-position: center;
