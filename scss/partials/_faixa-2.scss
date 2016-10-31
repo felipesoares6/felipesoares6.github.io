@@ -2,7 +2,7 @@
   display: flex;
   text-align: center;
   flex-flow: column;
-  background-color: $cor-auxiliar;
+  background-color: $silver-chalice;
 
   ul {
     margin: auto;
@@ -12,7 +12,7 @@
 
   li {
     margin: 70px auto;
-    color: black;
+    color: $black;
 
     &:hover {
       font-size:102%;
@@ -45,7 +45,7 @@
 
 .faixa-contato-2 li {
   @include tablet {
-    color: black;
+    color: $black;
     margin: auto 30px;
   }
 }

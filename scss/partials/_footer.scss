@@ -1,5 +1,5 @@
 footer {
-  background-color: $cor-footer;
+  background-color: $black;
   padding-top: 5px;
   display: flex;
   flex-flow: column;
@@ -9,7 +9,7 @@ footer {
 
   p,
   a {
-    color: #FFF;
+    color: $white;
     font-size: 16px;
   }
 
