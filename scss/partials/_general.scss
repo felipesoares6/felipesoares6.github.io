@@ -12,7 +12,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: $black;
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
 
 
 p {
-  color: black;
+  color: $black;
   font-size: 21px;
 }
 
@@ -41,7 +41,7 @@ header,
 section,
 footer {
   padding-top: 50px;
-  color: #fff;
+  color: $white;
   overflow: hidden;
   min-height: 100vh;
 }
@@ -52,7 +52,7 @@ footer {
   @include tablet {
     padding-top:50px;
     height:640px;
-    color: #fff;
+    color: $white;
     overflow: hidden;
   }
 }

@@ -1,6 +1,6 @@
 header {
   background-image: url("https://source.unsplash.com/category/technology");
-  background-color: $cor-secundaria;
+  background-color: $gray;
   background-size: cover;
   background-position: center;
   z-index: 2;
@@ -13,7 +13,7 @@ header {
   &:after {
     z-index: -1;
     content: '';
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: $black-strong;
     position: absolute;
     left: 0;
     top: 0;
@@ -22,7 +22,7 @@ header {
   }
 
   p {
-    color: #FFF;
+    color: $white;
     font-size: 22px;
     text-align: center;
   }
@@ -45,7 +45,7 @@ header {
     display: flex;
     justify-content: center;
     font-size: 21px;
-    color: black;
+    color: $black;
   }
 
 }
@@ -63,7 +63,7 @@ header {
 
 header p {
   @include tablet {
-    color: #FFF;
+    color: $white;
     font-size: 28px;
   }
 }
@@ -82,7 +82,7 @@ header p {
 
 header p {
   @include desktop {
-    color: #FFF;
+    color: $white;
     font-size: 24px;
   }
 }

@@ -12,7 +12,7 @@ nav {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    background-color: $cor-nav;
+    background-color: $black;
     padding: 0;
     margin: 0;
   }
@@ -21,14 +21,14 @@ nav {
 
     a {
       display: block;
-      color: white;
+      color: $white;
       margin: auto;
       padding: 12px 4px;
 
       &:hover {
-        background-color: #a6a6a6;
+        background-color: $silver-chalice;
         text-decoration: none;
-        color: white;
+        color: $white;
       }
     }
   }

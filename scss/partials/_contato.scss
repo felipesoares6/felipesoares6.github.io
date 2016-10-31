@@ -1,6 +1,6 @@
 .section-contato {
   padding-top: 120px;
-  background-color: $cor-primaria;
+  background-color: $dove-gray;
   background-image: url("https://source.unsplash.com/category/buildings");
   background-size: cover;
   background-position: center;
@@ -11,7 +11,7 @@
   &:after {
     z-index: -1;
     content: '';
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: $black-weak;
     position: absolute;
     left: 0;
     top: 0;
@@ -27,14 +27,14 @@
     border-radius: 7px;
     display: flex;
     flex-flow: column;
-    background: $cor-form;
+    background: $black-weak;
   }
 
   input,
   textarea {
     margin-bottom: 10px;
     width: 100%;
-    color: #000;
+    color: $black;
     padding: 15px;
     box-sizing: border-box;
     font-size: 15px;
@@ -50,19 +50,19 @@
   button {
     margin: auto;
     letter-spacing: 2px;
-    color: #FFF;
+    color: $white;
     min-height: 40px;
     min-width: 120px;
     max-width: 100%;
     padding: 2px;
     margin-top: 10px;
     font-size: 18px;
-    background-color: $cor-botao-out;
+    background-color: $silver-weak;
     border-radius: 3px;
     transition: all 0.3s ease;
 
     &:hover {
-      background-color: $cor-botao-in;
+      background-color: $silver-strong;
     }
 
   }
