@@ -1,0 +1,223 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", Verdana, sans-serif, serif; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+.header {
+  padding: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh; }
+  @media (min-width: 1024px) {
+    .header {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+      padding-left: 100px; } }
+
+.info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 20px; }
+  .info__logo {
+    height: 30px; }
+    @media (min-width: 768px) {
+      .info__logo {
+        height: 27px; } }
+  @media (min-width: 1024px) {
+    .info {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      width: 50vw;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 50px; } }
+  .info__links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .info .about {
+    text-align: center;
+    margin-top: 60px; }
+    @media (min-width: 1024px) {
+      .info .about {
+        text-align: left; } }
+    .info .about__name {
+      color: #454545; }
+    .info .about__description {
+      font-family: 'Roboto', sans-serif;
+      color: #95989a; }
+      @media (min-width: 768px) {
+        .info .about__description {
+          margin-left: 80px; } }
+
+.img-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .img-container {
+      padding: 50px;
+      margin-bottom: 150px; } }
+  @media (min-width: 1024px) {
+    .img-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 50vw;
+      padding: 0;
+      margin: 0; } }
+
+.img-container__photo {
+  background-image: url("../assets/images/felipe-soares.png");
+  background-position: center;
+  background-size: cover;
+  width: 75%;
+  height: 230px;
+  position: relative;
+  border: 1px solid #95989a;
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg); }
+  .img-container__photo::after {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    content: '';
+    background-color: rgba(46, 46, 46, 0.4);
+    z-index: 2;
+    height: 105%;
+    width: 105%;
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg); }
+    @media (min-width: 1024px) {
+      .img-container__photo::after {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        content: '';
+        background-color: rgba(46, 46, 46, 0.4);
+        z-index: 2;
+        height: 110%;
+        width: 110%;
+        -webkit-transform: rotate(65deg);
+        -ms-transform: rotate(65deg);
+        transform: rotate(65deg); } }
+  @media (min-width: 768px) {
+    .img-container__photo {
+      width: 60%;
+      height: 450px; } }
+
+.about {
+  text-align: center;
+  margin-top: 60px; }
+  @media (min-width: 1024px) {
+    .about {
+      text-align: left; } }
+  .about__name {
+    color: #454545; }
+  .about__description {
+    color: #95989a; }
+    @media (min-width: 768px) {
+      .about__description {
+        margin-left: 80px; } }
+
+.info__link {
+  margin-left: 25px;
+  margin-right: 25px;
+  position: relative; }
+  @media (min-width: 1024px) {
+    .info__link:before {
+      position: absolute;
+      content: '';
+      width: 47px;
+      height: 47px;
+      left: -9px;
+      top: -23px;
+      -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-transition: all .35s ease-in-out;
+      transition: all .35s ease-in-out;
+      border: 1px solid #95989a;
+      opacity: 0;
+      transition: all .35s ease-in-out; }
+    .info__link:hover.info__link:before {
+      opacity: 1; } }
+
+.info__logo {
+  height: 30px; }
+  @media (min-width: 768px) {
+    .info__logo {
+      height: 50px; } }
+  @media (min-width: 768px) {
+    .info__logo {
+      height: 30px; } }
