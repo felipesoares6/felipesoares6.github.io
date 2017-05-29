@@ -1,0 +1,19 @@
+.img-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  margin-top: 50px;
+
+  @include tablet {
+    padding: 50px;
+    margin-bottom: 150px;
+  }
+
+  @include desktop {
+    flex-direction: column;
+    width: 50vw;
+    padding: 0;
+    margin: 0;
+  }
+}
