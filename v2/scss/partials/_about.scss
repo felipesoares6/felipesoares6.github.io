@@ -1,0 +1,20 @@
+.about {
+  text-align: center;
+  margin-top: 60px;
+
+  @include desktop {
+    text-align: left;
+  }
+
+  &__name {
+    color: $primary-color-dark;
+  }
+
+  &__description {
+    color: $primary-color;
+
+    @include tablet {
+      margin-left: 80px;
+    }
+  }
+}

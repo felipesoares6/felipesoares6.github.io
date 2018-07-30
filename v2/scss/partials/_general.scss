@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: $primary-font, sans-serif, serif;
+}
+
 a {
   text-decoration: none;
+  color: $black;
 }
 
 ul {
@@ -14,11 +19,4 @@ ul {
 
 img {
   max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin: 0;
 }

@@ -1,20 +1,23 @@
 .about {
-  text-align: center;
-  margin-top: 60px;
-
-  @include desktop {
-    text-align: left;
-  }
-
   &__name {
-    color: $primary-color-dark;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: $primary-green;
+
+    @include tablet {
+      font-size: 48px;
+    }
   }
 
   &__description {
-    color: $primary-color;
+    font-size: 24px;
 
     @include tablet {
-      margin-left: 80px;
+      font-size: 32px;
     }
   }
 }
