@@ -1,0 +1,26 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+
+  @include landscape {
+    width: 30vw;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+  }
+
+  @include tablet {
+    flex-direction: row;
+    width: 40vw;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  @include desktop {
+    width: 25vw;
+  }
+}
