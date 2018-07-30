@@ -15,9 +15,3 @@
     @content;
   }
 }
-
-@mixin desktop-large {
-  @media (min-width: #{desktop-large-width}) {
-    @content;
-  }
-}
