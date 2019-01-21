@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('../images/background-image-small.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: $black;
+  padding: $small-spacing;
+  color: $white;
+  z-index: -2;
+
+  @include medium {
+    padding: $medium-spacing;
+    background-image: url('../images/background-image-medium.jpg');
+  }
+
+  @include large {
+    padding: $large-spacing;
+    background-image: url('../images/background-image-large.jpg');
+  }
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: $transparent-black;
+    z-index: -1;
+  }
+}
