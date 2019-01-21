@@ -1,0 +1,45 @@
+.projects {
+  &__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: $small-spacing 0;
+  }
+
+  &__item {
+    margin-bottom: $medium-spacing;
+
+    &__date {
+      margin: 0;
+
+      @include medium {
+        font-size: 1.125rem;
+      }
+    }
+
+    &__occupation {
+      margin-top: 0;
+      margin-bottom: $small-spacing;
+      font-size: 1.5rem;
+      font-weight: 300;
+
+      @include medium {
+        font-size: 2rem;
+      }
+    }
+
+    &__description {
+      line-height: 1.5rem;
+
+      @include medium {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+      }
+    }
+  }
+}

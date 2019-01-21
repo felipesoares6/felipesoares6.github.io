@@ -32,9 +32,13 @@
 
   &__social-media {
     &__list  {
-      margin-top: $small-spacing;
+      margin-top: $medium-spacing;
       list-style: none;
       text-align: right;
+
+      @include medium {
+        margin-top: $medium-spacing;
+      }
     }
 
     &__item {

@@ -4,12 +4,14 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC|Montserrat" rel="stylesheet">
   </head>
 
   <body class="container">
-    <header class="personal-info">
+    <main class="personal-info">
       <h1 class="personal-info__name">Felipe Luiz Soares</h1>
-      <p class="personal-info__profession">Web Developer</p>
+      <h2 class="personal-info__profession">Web Developer</h2>
 
       <p class="personal-info__bio">Web developer focused on front-end, interested in usability, user experience and passionate about new technologies.</p>
 
@@ -26,38 +28,38 @@
           <img src="src/images/linkedin-icon.svg" alt="LinkedIn Icon" />
         </li>
       <ul>
-    </header>
+    </main>
 
-    <main>
-      <h2>Last Projects</h2>
+    <section class="projects">
+      <h2 class="projects__title">Last Projects</h2>
 
-      <ol>
-        <li>
-          <p>February - November, 2018</p>
+      <ol class="projects__list">
+        <li class="projects__item">
+          <p class="projects__item__date">February to November, 2018</p>
 
-          <h3>Front-end developer on Ifood</h3>
+          <h3 class="projects__item__occupation">Front-end developer on Ifood</h3>
 
-          <p>
+          <p class="projects__item__description">
             I worked remotely to Ifood (one of the biggest food delivery platform in South America)
             I had worked on different projects there, the back office delivery system, repository of reusable
             components and restaurants self sign-in. Using agile, development best practices, HTML, CSS, JS (ES6, ES7),
             BEM, React, Redux, Redux Saga, Flow, Styled Components, Recompose, Webpack, Jest, and Cypress.
           </p>
+        </li>
 
-          <li>
-            <p>April of 2017 – January of 2018</p>
+        <li class="projects__item">
+          <p class="projects__item__date">April of 2017 to January of 2018</p>
 
-            <h3>Front-end developer on Leroy Merlin Brazil</h3>
+          <h3 class="projects__item__occupation">Front-end developer on Leroy Merlin Brazil</h3>
 
-            <p>
-              Leroy Merlin is a French headquartered home improvement and gardening retailer serving several countries
-              in Europe, Asia, South America, and Africa. I worked remotely to different projects there, including the
-              suppliers portal and the assisted sales system. Using JS (ES6), JQuery, Jade, Nunjucks, Gulp,Atomic Design,
-              CSS, Sass and, HTML.
-            </p>
-          </li>
+          <p class="projects__item__description">
+            Leroy Merlin is a French headquartered home improvement and gardening retailer serving several countries
+            in Europe, Asia, South America, and Africa. I worked remotely to different projects there, including the
+            suppliers portal and the assisted sales system. Using JS (ES6), JQuery, Jade, Nunjucks, Gulp,Atomic Design,
+            CSS, Sass and, HTML.
+          </p>
         </li>
       </ol>
-    </main>
+    </section>
   </body>
 </html>
