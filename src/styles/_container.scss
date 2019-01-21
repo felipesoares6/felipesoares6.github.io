@@ -32,4 +32,9 @@
     filter: blur(5px);
     z-index: -1;
   }
+
+  &__content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
