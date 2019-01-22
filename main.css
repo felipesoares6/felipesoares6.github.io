@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Noto Serif SC", serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif; }
+
+p {
+  font-family: "Noto Serif SC", serif; }
+
+img {
+  width: 100%; }
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
+  background-image: url(images/d31ba7a6d95fe5759bd745d1a787d8e1.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #000;
+  color: #fff;
+  z-index: -2; }
+  @media (min-width: 768px) {
+    .container {
+      padding: 40px;
+      background-image: url(images/42e2dfbf6e09fbaefd5fae1bf5d8a857.jpg); } }
+  @media (min-width: 1024px) {
+    .container {
+      padding: 60px;
+      background-image: url(images/901727e07a22a7cb6f7285532b54cac3.jpg); } }
+  .container::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    filter: blur(5px);
+    z-index: -1; }
+  .container__content {
+    max-width: 1400px;
+    margin: 0 auto; }
+
+.personal-info__name {
+  margin: 0;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 300; }
+  @media (min-width: 768px) {
+    .personal-info__name {
+      font-size: 2.875rem; } }
+
+.personal-info__profession {
+  margin: 0;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  font-weight: 300; }
+  @media (min-width: 768px) {
+    .personal-info__profession {
+      font-size: 2.375rem; } }
+
+@media (min-width: 1024px) {
+  .personal-info__content {
+    display: flex;
+    flex-direction: column-reverse; } }
+
+.personal-info__bio {
+  line-height: 1.3rem; }
+  @media (min-width: 768px) {
+    .personal-info__bio {
+      font-size: 2rem;
+      line-height: 2.3rem; } }
+  @media (min-width: 1024px) {
+    .personal-info__bio {
+      text-align: right; } }
+
+.personal-info__social-media__list {
+  margin-top: 40px;
+  list-style: none;
+  text-align: right; }
+  @media (min-width: 768px) {
+    .personal-info__social-media__list {
+      margin-top: 40px; } }
+  @media (min-width: 1024px) {
+    .personal-info__social-media__list {
+      transform: translateY(-132px); } }
+
+.personal-info__social-media__item {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-left: 20px; }
+  @media (min-width: 768px) {
+    .personal-info__social-media__item {
+      width: 58px;
+      height: 58px;
+      margin-left: 40px; } }
+  @media (min-width: 1024px) {
+    .personal-info__social-media__item {
+      width: 58px;
+      height: 58px;
+      margin-left: 60px; } }
+
+.personal-info__social-media__image path {
+  transition: fill 0.3s ease; }
+
+.personal-info__social-media__image:hover path {
+  fill: #cecece; }
+
+.projects__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.projects__list {
+  position: relative;
+  list-style: none;
+  padding-left: 20px;
+  margin: 20px 0; }
+  .projects__list::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    height: 95%;
+    border-left: 2px solid #fff; }
+    @media (min-width: 768px) {
+      .projects__list::after {
+        border-width: 4px; } }
+
+.projects__item {
+  margin-bottom: 40px; }
+  .projects__item__date {
+    margin: 0; }
+    @media (min-width: 768px) {
+      .projects__item__date {
+        font-size: 1.125rem; } }
+  .projects__item__occupation {
+    position: relative;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 300; }
+    @media (min-width: 768px) {
+      .projects__item__occupation {
+        font-size: 2rem; } }
+    .projects__item__occupation::after {
+      position: absolute;
+      left: -20px;
+      bottom: -10px;
+      content: '';
+      width: 80%;
+      border: 1px solid #fff; }
+      @media (min-width: 768px) {
+        .projects__item__occupation::after {
+          border-width: 2px; } }
+  .projects__item__description {
+    max-width: 1000px;
+    line-height: 1.5rem; }
+    @media (min-width: 768px) {
+      .projects__item__description {
+        font-size: 1.125rem;
+        line-height: 1.625rem; } }
+
