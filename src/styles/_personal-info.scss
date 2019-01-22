@@ -1,76 +1,82 @@
 .personal-info {
+  position: relative;
+
   &__name {
-    margin: 0;
-    font-size: 1.65rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    font-weight: 300;
 
     @include medium {
-      font-size: 2.875rem;
+      font-size: 3rem;
+    }
+
+    @include large {
+      font-size: 3.5rem;
     }
   }
 
   &__profession {
-    margin: 0;
     font-size: 1.375rem;
     text-transform: uppercase;
-    font-weight: 300;
 
     @include medium {
-      font-size: 2.375rem;
+      font-size: 2rem;
     }
-  }
 
-  &__content {
     @include large {
-      display: flex;
-      flex-direction: column-reverse;
+      font-size: 2.5rem;
     }
   }
 
   &__bio {
+    margin-top: $small-spacing;
+    margin-bottom: $small-spacing;
     line-height: 1.3rem;
 
     @include medium {
+      margin-top: $medium-spacing;
+      margin-bottom: $medium-spacing;
       font-size: 2rem;
       line-height: 2.3rem;
     }
 
     @include large {
+      margin-top: $large-spacing;
+      margin-bottom: $large-spacing;
       text-align: right;
     }
   }
 
   &__social-media {
     &__list  {
-      margin-top: $medium-spacing;
+      margin-top: $small-spacing;
+      margin-bottom: $small-spacing;
       list-style: none;
       text-align: right;
 
       @include medium {
         margin-top: $medium-spacing;
+        margin-bottom: $medium-spacing;
       }
 
       @include large {
-        transform: translateY(-132px);
+        position: absolute;
+        top: 13px;
+        right: 0;
+        margin: 0;
       }
     }
 
     &__item {
       display: inline-block;
       width: 38px;
-      height: 38px;
       margin-left: $small-spacing;
 
       @include medium {
         width: 58px;
-        height: 58px;
         margin-left: $medium-spacing;
       }
 
       @include large {
-        width: 58px;
-        height: 58px;
         margin-left: $large-spacing;
       }
     }
