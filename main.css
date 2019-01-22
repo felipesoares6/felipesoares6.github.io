@@ -12,7 +12,8 @@ h3 {
 p {
   font-family: "Noto Serif SC", serif; }
 
-img {
+img,
+svg {
   width: 100%; }
 
 .container {
@@ -51,7 +52,7 @@ img {
 
 .personal-info__name {
   margin: 0;
-  font-size: 1.75rem;
+  font-size: 1.65rem;
   text-transform: uppercase;
   font-weight: 300; }
   @media (min-width: 768px) {
