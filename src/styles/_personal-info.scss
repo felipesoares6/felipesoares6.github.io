@@ -50,6 +50,10 @@
       @include medium {
         margin-top: $medium-spacing;
       }
+
+      @include large {
+        transform: translateY(-132px);
+      }
     }
 
     &__item {
@@ -61,6 +65,13 @@
       @include medium {
         width: 58px;
         height: 58px;
+        margin-left: $medium-spacing;
+      }
+
+      @include large {
+        width: 58px;
+        height: 58px;
+        margin-left: $large-spacing;
       }
     }
   }
