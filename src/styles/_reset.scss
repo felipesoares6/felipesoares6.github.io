@@ -9,13 +9,22 @@ body {
 h1,
 h2,
 h3 {
+  margin: 0;
+  font-weight: 300;
   font-family: $secondary-font;
 }
 
 p {
+  margin: 0;
   font-family: $primary-font;
 }
 
-img {
+ul,
+ol {
+  padding: 0;
+}
+
+img,
+svg {
   width: 100%;
 }

@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode=development",
-    "build": "webpack --mode-production",
-    "deploy":"yarn build && gh-pages -d dist"
+    "build": "webpack --mode=production",
+    "deploy":"yarn build && gh-pages -b master -d dist"
   },
   "repository": {
     "type": "git",
