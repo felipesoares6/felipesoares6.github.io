@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  padding: $small-spacing;
+  margin: 0;
+  background-image: url('../images/background-image-small.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: $black;
+  color: $white;
+  z-index: -2;
+
+  @include medium {
+    padding: $medium-spacing;
+    background-image: url('../images/background-image-medium.jpg');
+  }
+
+  @include large {
+    padding: $large-spacing;
+    background-image: url('../images/background-image-large.jpg');
+  }
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: $transparent-black;
+    filter: blur(5px);
+    z-index: -1;
+  }
+
+  &__content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}

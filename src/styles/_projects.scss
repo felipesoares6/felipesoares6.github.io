@@ -1,0 +1,75 @@
+.projects {
+  &__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  &__list {
+    position: relative;
+    list-style: none;
+    padding-left: $small-spacing;
+    margin: $small-spacing 0;
+
+    &::after {
+      position: absolute;
+      left: 0;
+      top: 0;
+      content: '';
+      height: 95%;
+      border-left: 2px solid $white;
+
+      @include medium {
+        border-width: 4px;
+      }
+    }
+  }
+
+  &__item {
+    margin-bottom: $medium-spacing;
+
+    &__date {
+      margin: 0;
+
+      @include medium {
+        font-size: 1.125rem;
+      }
+    }
+
+    &__occupation {
+      position: relative;
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: $small-spacing;
+      font-size: 1.5rem;
+      font-weight: 300;
+
+      @include medium {
+        font-size: 2rem;
+      }
+
+      &::after {
+        position: absolute;
+        left: -20px;
+        bottom: -10px;
+        content: '';
+        width: 80%;
+        border: 1px solid $white;
+
+        @include medium {
+          border-width: 2px;
+        }
+      }
+    }
+
+    &__description {
+      max-width: 1000px;
+      line-height: 1.5rem;
+
+      @include medium {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+      }
+    }
+  }
+}
