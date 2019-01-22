@@ -7,10 +7,17 @@ body {
 h1,
 h2,
 h3 {
+  margin: 0;
+  font-weight: 300;
   font-family: "Montserrat", sans-serif; }
 
 p {
+  margin: 0;
   font-family: "Noto Serif SC", serif; }
+
+ul,
+ol {
+  padding: 0; }
 
 img,
 svg {
@@ -50,82 +57,88 @@ svg {
     max-width: 1400px;
     margin: 0 auto; }
 
-.personal-info__name {
-  margin: 0;
-  font-size: 1.65rem;
-  text-transform: uppercase;
-  font-weight: 300; }
-  @media (min-width: 768px) {
-    .personal-info__name {
-      font-size: 2.875rem; } }
-
-.personal-info__profession {
-  margin: 0;
-  font-size: 1.375rem;
-  text-transform: uppercase;
-  font-weight: 300; }
-  @media (min-width: 768px) {
-    .personal-info__profession {
-      font-size: 2.375rem; } }
-
-@media (min-width: 1024px) {
-  .personal-info__content {
-    display: flex;
-    flex-direction: column-reverse; } }
-
-.personal-info__bio {
-  line-height: 1.3rem; }
-  @media (min-width: 768px) {
-    .personal-info__bio {
-      font-size: 2rem;
-      line-height: 2.3rem; } }
-  @media (min-width: 1024px) {
-    .personal-info__bio {
-      text-align: right; } }
-
-.personal-info__social-media__list {
-  margin-top: 40px;
-  list-style: none;
-  text-align: right; }
-  @media (min-width: 768px) {
-    .personal-info__social-media__list {
-      margin-top: 40px; } }
-  @media (min-width: 1024px) {
-    .personal-info__social-media__list {
-      transform: translateY(-132px); } }
-
-.personal-info__social-media__item {
-  display: inline-block;
-  width: 38px;
-  height: 38px;
-  margin-left: 20px; }
-  @media (min-width: 768px) {
-    .personal-info__social-media__item {
-      width: 58px;
-      height: 58px;
-      margin-left: 40px; } }
-  @media (min-width: 1024px) {
-    .personal-info__social-media__item {
-      width: 58px;
-      height: 58px;
-      margin-left: 60px; } }
-
-.personal-info__social-media__image path {
-  transition: fill 0.3s ease; }
-
-.personal-info__social-media__image:hover path {
-  fill: #cecece; }
+.personal-info {
+  position: relative; }
+  .personal-info__name {
+    font-size: 2rem;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .personal-info__name {
+        font-size: 3rem; } }
+    @media (min-width: 1024px) {
+      .personal-info__name {
+        font-size: 3.5rem; } }
+  .personal-info__profession {
+    font-size: 1.375rem;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .personal-info__profession {
+        font-size: 2rem; } }
+    @media (min-width: 1024px) {
+      .personal-info__profession {
+        font-size: 2.5rem; } }
+  .personal-info__bio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.3rem; }
+    @media (min-width: 768px) {
+      .personal-info__bio {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 2rem;
+        line-height: 2.3rem; } }
+    @media (min-width: 1024px) {
+      .personal-info__bio {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        text-align: right; } }
+  .personal-info__social-media__list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: right; }
+    @media (min-width: 768px) {
+      .personal-info__social-media__list {
+        margin-top: 40px;
+        margin-bottom: 40px; } }
+    @media (min-width: 1024px) {
+      .personal-info__social-media__list {
+        position: absolute;
+        top: 13px;
+        right: 0;
+        margin: 0; } }
+  .personal-info__social-media__item {
+    display: inline-block;
+    width: 38px;
+    margin-left: 20px; }
+    @media (min-width: 768px) {
+      .personal-info__social-media__item {
+        width: 58px;
+        margin-left: 40px; } }
+    @media (min-width: 1024px) {
+      .personal-info__social-media__item {
+        margin-left: 60px; } }
+  .personal-info__social-media__image path {
+    transition: fill 0.3s ease; }
+  .personal-info__social-media__image:hover path {
+    fill: #cecece; }
 
 .projects__title {
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 3px; }
+  font-size: 1.375rem;
+  text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .projects__title {
+      font-size: 2rem; } }
+  @media (min-width: 1024px) {
+    .projects__title {
+      font-size: 2.5rem; } }
 
 .projects__list {
   position: relative;
   list-style: none;
   padding-left: 20px;
-  margin: 20px 0; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
   .projects__list::after {
     position: absolute;
     left: 0;
@@ -149,11 +162,11 @@ svg {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 1.5rem;
-    font-weight: 300; }
+    font-size: 1.5rem; }
     @media (min-width: 768px) {
       .projects__item__occupation {
-        font-size: 2rem; } }
+        font-size: 2rem;
+        margin-bottom: 40px; } }
     .projects__item__occupation::after {
       position: absolute;
       left: -20px;
@@ -170,5 +183,5 @@ svg {
     @media (min-width: 768px) {
       .projects__item__description {
         font-size: 1.125rem;
-        line-height: 1.625rem; } }
+        line-height: 2rem; } }
 
