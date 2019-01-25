@@ -2,6 +2,7 @@ const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   devServer: {
@@ -22,9 +23,6 @@ module.exports = {
         loader: 'html-loader',
         options: {
           minimize: true,
-          attrs: [
-            'img:src',
-          ],
         },
       },
 
@@ -53,10 +51,17 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin(['dist']),
+
     new MiniCSSExtractPlugin(),
+
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'index.html'),
     }),
+
+    new CopyWebpackPlugin([{
+      from: './public',
+      to: 'public',
+    }]),
   ],
 };
 

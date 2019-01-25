@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Aprendendo  HTML e CSS construindo um portfólio.",
   "main": "gulpfile.js",
-  "dependencies": {}, "devDependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "clean-webpack-plugin": "^1.0.0",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
     "gh-pages": "^2.0.1",
@@ -21,7 +23,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
-    "deploy":"yarn build && gh-pages -b master -d dist"
+    "deploy": "yarn build && gh-pages -b master -d dist"
   },
   "repository": {
     "type": "git",
