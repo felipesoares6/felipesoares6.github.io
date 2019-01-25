@@ -1,0 +1,35 @@
+{
+  "filename": "manifest.json",
+  "display": "standalone",
+  "name": "Felipe Soares Portfolio",
+  "short_name": "Portfolio",
+  "description": "Web developer focused on front-end passionate about new technologies.",
+  "background_color": "#000",
+  "icons": [
+    {
+      "src": "public/images/icons/android-icon-36x36.png",
+      "type": "image/png",
+      "size": "36x36"
+    },
+    {
+      "src": "public/images/icons/android-icon-48x48.png",
+      "size": "48x48"
+    },
+    {
+      "src": "public/images/icons/android-icon-72x72.png",
+      "size": "72x72"
+    },
+    {
+      "src": "public/images/icons/android-icon-96x96.png",
+      "size": "96x96"
+    },
+    {
+      "src": "public/images/icons/android-icon-144x144.png",
+      "size": "144x144"
+    },
+    {
+      "src": "public/images/icons/android-icon-192x192.png",
+      "size": "192x192"
+    }
+  ]
+}
