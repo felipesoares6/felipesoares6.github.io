@@ -3,7 +3,7 @@
   min-height: 100vh;
   padding: $small-spacing;
   margin: 0;
-  background-image: url('../../public/images/background-image-small.jpg');
+  background-image: url('../images/background-image-small.jpg');
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -13,12 +13,12 @@
 
   @include medium {
     padding: $medium-spacing;
-    background-image: url('../../public/images/background-image-medium.jpg');
+    background-image: url('../images/background-image-medium.jpg');
   }
 
   @include large {
     padding: $large-spacing;
-    background-image: url('../../public/images/background-image-large.jpg');
+    background-image: url('../images/background-image-large.jpg');
   }
 
   &::before {
